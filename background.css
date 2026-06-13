@@ -1,0 +1,13 @@
+body{
+
+background:
+linear-gradient(
+rgba(0,0,0,.7),
+rgba(0,0,0,.7)
+),
+
+url("C:/Users/HP/OneDrive/Desktop/event_management/static/images/event background.jpg");
+
+background-size:cover;
+background-position:center;
+}

@@ -1,0 +1,17 @@
+<h1>All Events</h1>
+
+{% for event in events %}
+
+<h2>{{ event[1] }}</h2>
+
+<p>{{ event[2] }}</p>
+
+<p>{{ event[3] }}</p>
+
+<a href="/register_event/{{event[0]}}">
+Register
+</a>
+
+<hr>
+
+{% endfor %}

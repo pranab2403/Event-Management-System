@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Management System</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static',
+          filename='css/style.css') }}">
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">
+        🎉 Event Management
+    </div>
+
+    <div class="menu">
+        <a href="/">Home</a>
+        <a href="/login">Login</a>
+        <a href="/register">Register</a>
+    </div>
+</nav>
+
+<section class="hero">
+
+    <div class="left">
+
+        <h1>
+            Event Management
+            <span>System</span>
+        </h1>
+
+        <p>
+            Manage events, registrations,
+            participants and certificates
+            in one place.
+        </p>
+
+        <div class="buttons">
+
+            <a href="/login"
+               class="btn login">
+               Login
+            </a>
+
+            <a href="/register"
+               class="btn register">
+               Register
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
